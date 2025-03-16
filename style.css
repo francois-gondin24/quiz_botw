@@ -1,0 +1,85 @@
+    @font-face {
+    font-family: "hylia";
+    src: url(fonts/hylia-fonts.otf);
+    }
+    @font-face {
+    font-family: "diside";
+    src: url(fonts/Diside.otf);
+    }
+    @font-face {
+    font-family: "enthusiastic";
+    src: url(fonts/Enthusiastic.ttf);
+    }
+    @font-face {
+    font-family: "diplomatic";
+    src: url(fonts/The\ Diplomat\ Signature\ Regular.otf);
+    }
+    @font-face {
+    font-family: "botw";
+    src: url(fonts/The\ Wild\ Breath\ of\ Zelda.otf);
+    }
+    @font-face {
+    font-family: "gothic";
+    src: url(fonts/vhs-gothic.ttf);
+ }
+body {
+    background-image: url(image/OIP.jpg);
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    background-image: url('OIP.jpg');
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.container {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+h1, h2, h3 {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin: 5px 0;
+}
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.title{
+    font-family: "hylia";
+    font-size: 50px;
+    text-align: center;
+    color: rgb(0, 204, 170);
+    text-shadow: 2px 2px 4px #000000;
+}
+.details{
+    font-family:"diside";
+    font-size: 30px;
+    color: white;
+}
+.img{
+    border-radius: 30px;
+    box-shadow: 0 0 20px 10px black;
+}
+.vid{
+    border-radius: 30px;
+    box-shadow: 0 0 20px 10px black;
+}
+.list{
+    font-family: "diplomatic";
+    font-size: 30px;
+    color: white;
+}

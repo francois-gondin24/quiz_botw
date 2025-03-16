@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'botw';
+    src: url('The\ Wild\ Breath\ of\ Zelda.otf');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f409;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(image/llink\ quiz.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    font-size: 40px;
+    font-family: 'botw';
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    color: #fff;
+    background-color: #02581073;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.titre {
+    display: inline-block;
+    animation-name: square-to-circle;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(205, 208, 255);
+}
+
+@keyframes fade {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes infade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.html {
+    background-image: url(image/télécharger\ \(3\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.quiz {
+    background-color: #025811;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    color: #00806f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.boutton {
+    display: flex;
+    justify-content: center;
+}
+
+.boutton button {
+    color: #fff;
+    background-color: rgb(5, 96, 172);
+    font-size: 20px;
+    font-family: 'botw';
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid #00806f;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.boutton button:hover {
+    background-color: #00806f;
+    color: rgb(5, 96, 172);
+}
+
+.image {
+    display: flex;
+    border-radius: 30px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.image img {
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footter {
+    border-radius: 20px;
+    display: inline-block;
+    background-color: #025811;
+    font-size: 20px;
+    font-family: 'botw';
+    color: #00806f;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    color: #aaa;
+    border-radius: 10px;
+    
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+@keyframes square-to-circle {
+    0% {
+        border-radius: 75%;
+        background: rgb(55, 253, 177);
+    }
+    25% {
+        border-radius: 10%;
+        background: rgb(7, 130, 245);
+    }
+    50% {
+        border-radius: 25%;
+        background: rgb(8, 45, 255);
+    }
+    75% {
+        border-radius: 40%;
+        background: rgb(1, 5, 255);
+    }
+    100% {
+        border-radius: 50%;
+        background: rgb(77, 14, 252);
+    }
+}
+.btotk {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+   
+}
+.totk {
+    display: inline-block;
+   text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #025811;
+    color: #00806f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}   
+.totk button:hover{
+    background-color: #ffffff;
+    color: rgb(5, 96, 172);
+
+}
